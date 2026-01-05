@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallant Brides of Destiny</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#6d4c41',
+              'brand-secondary': '#a1887f',
+              'brand-accent': '#ffab40',
+              'brand-light': '#f5f5f5',
+              'brand-dark': '#3e2723',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Lora', 'serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Babel to transpile JSX/TSX in the browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Import Map to resolve modules like "react" -->
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.2.0",
+        "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+        "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+        "react-router-dom": "https://esm.sh/react-router-dom@6.23.0?external=react"
+      }
+    }
+    </script>
+
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <!-- The data-type="module" is important for babel to output an ES module -->
+    <script type="text/babel" data-type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
