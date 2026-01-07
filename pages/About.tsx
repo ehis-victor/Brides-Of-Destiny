@@ -26,11 +26,11 @@ const About: React.FC = () => {
               Our Vision
             </h2>
             <p className="text-gray-600 mb-6 text-lg">
-              We envision a society where every widow of a fallen hero is
-              treated with dignity, has the resources to achieve independence,
-              and can build a secure and prosperous future for herself and her
-              children. Our goal is to transform personal tragedy into a story
-              of resilience and triumph.
+              We envision a society where every widow of a fallen brethren or
+              hero is treated with dignity, has the resources to achieve
+              independence, and can build a secure and prosperous future for
+              herself and her children. Our goal is to transform personal
+              tragedy into a story of resilience and triumph.
             </p>
             <h2 className="text-3xl font-bold text-brand-dark mb-4 font-serif">
               Our History
@@ -39,8 +39,10 @@ const About: React.FC = () => {
               Founded on the principles of compassion and service, Brides of
               Destiny was established to address the profound challenges faced
               by the widows of gallant soldiers and police force personnel who
-              made the ultimate sacrifice for Nigeria. We are committed to
-              honoring their memory by supporting the families they left behind.
+              made the ultimate sacrifice for Nigeria, especially those at the
+              forefront of the nations war against terrorism in the far north.
+              We are committed to honoring their memory by supporting the
+              families they left behind.
             </p>
           </div>
         </div>

@@ -7,7 +7,7 @@ const HeroSection: React.FC = () => {
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover"
-          src="/images/hero-shot-african-women-sitting-together.jpg"
+          src="/images/hero-shot-african-women-sitting-together.webp"
           alt="Supportive community"
         />
         <div
