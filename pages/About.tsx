@@ -16,7 +16,7 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
             <img
-              src="/images/Team working together.jpg"
+              src="/images/Team working together.webp"
               alt="Team working together"
               className="rounded-lg shadow-xl"
             />
